@@ -1,0 +1,15 @@
+Node js Restfull services with firebase and express js
+
+1. Create node js project
+2. Install required package
+    npm install express firebase dotenv cors body-parser
+    npm install nodemon --save-dev
+3. Create folder structure
+4. Create environments variable and firebase base database
+5. Create express js server
+6. Connect database
+7. Add student functionality
+8. Get all student functionality
+9. Get one student functionality
+10. Update student functionality
+11. Delete student functionality

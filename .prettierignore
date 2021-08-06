@@ -1,0 +1,2 @@
+# ignoreing prettier format on certain folders and files
+models/student.js

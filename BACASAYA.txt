@@ -13,3 +13,6 @@ Node js Restfull services with firebase and express js
 9. Get one student functionality
 10. Update student functionality
 11. Delete student functionality
+
+note:
+  saat membuat database di firebase, tidak mencentang google analytics.

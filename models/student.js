@@ -9,3 +9,5 @@ class Student {
     this.year = year
   }
 }
+
+module.exports = Student

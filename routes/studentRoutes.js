@@ -1,4 +1,5 @@
-const express = require('express')
+import express from 'express'
+
 const {
   addStudent,
   getAllStudent,
@@ -15,4 +16,4 @@ router.get('/student/:id', getStudent)
 router.put('/student/:id', updateStudent)
 router.delete('/student/:id', deleteStudent)
 
-module.exports = { routes: router }
+export default { routes: router }

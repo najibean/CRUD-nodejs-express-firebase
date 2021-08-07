@@ -1,8 +1,5 @@
-// import firebase from './../db'
-// import Student from './../models/student'
-// import firestore from firebase.firestore()
-const firebase = require('./../db')
-const Student = require('./../models/student')
+import firebase from './../db'
+import Student from './../models/student'
 const firestore = firebase.firestore()
 
 const addStudent = async (req, res, next) => {
@@ -77,4 +74,4 @@ const deleteStudent = async (req, res, next) => {
   }
 }
 
-module.exports = { addStudent, getAllStudent, getStudent, updateStudent, deleteStudent }
+export { addStudent, getAllStudent, getStudent, updateStudent, deleteStudent }
